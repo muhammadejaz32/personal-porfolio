@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- ---------------header---------------- -->
+    <header>
+      <h2 class="logo" id="logo">MUHAMMAD EJAZ</h2>
+      <nav class="navigation" id="sidemenu">
+        <a href="">home</a>
+        <a href="#about">about</a>
+        <a href="#services">service</a>
+        <a href="#work">work</a>
+        <a href="#contact">contact</a>
+        <img src="./images/multiply-mathematical-sign.png" id="openmenu" alt="" width="20px" class="fas" onclick="closedmenu()">
+      </nav>
+      <img src="./images/menu.png" alt="" width="20px" class="fas2" id="closemenu" onclick="opnedmenu()">
+    </header>
+    
+    <!-- --------------------hero------------------------ -->
+    <div class="hero">
+      <div class="headertext">
+        <h1>
+          front end and web <br />
+          developer
+        </h1>
+        <h1>hello, i am <br /><span>MUHAMMAD EJAZ</span></h1>
+        <a href="" download> download CV</a>
+      </div>
+      <div class="img">
+        <img
+          src="./images/p-removebg-preview.png"
+          alt=""
+          width="350px"
+          height="420px"
+        />
+      </div>
+    </div>
+
+    <!-- ----------------------------about----------------------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="./images/p-removebg-preview.png" height="500px" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">about me</h1>
+            <p>
+              I am MUHAMMAD EJAZ AFRIDI.I have interest in programming and
+              development. <br />
+              I have worked in a real world projects. Lorem, ipsum dolor sit
+              amet consectetur adipisicing elit. Nostrum incidunt <br />voluptas
+              deleniti earum ab dolorum beatae laudantium illum officiis. Quod?
+            </p>
+            <div class="tab-title">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">eductaion</p>
+            </div>
+            <div class="tab-contents active-tabs" id="skills">
+              <ul>
+                <li><span>C++ developer</span><br />console based programming</li>
+                <li><span>web development</span><br />web app development</li>
+                <li>
+                  <span>app development</span><br />building ios/andriod apps
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2021-current</span><br />app development university level 
+                </li>
+                <li><span>2019-2021</span><br />python programmer university level </li>
+                <li>
+                  <span>2016-2017</span><br />c++ programming at university level
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2024</span><br />saylani mass it training program</li>
+                <li><span>2021</span><br />city university peshawar</li>
+                <li><span>2019-2021</span><br />government college peshawar</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ------------------------------------- services-------------------- -->
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">my services</h1>
+        <div class="services-list">
+          <div>
+            <!-- icons from fontawesome icons -->
+            <img src="./sevices/icons8-c++.svg" alt="" width="100px" height="100px" style="margin-top: 10px;"/>
+            <h1>C++ programming</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+              ea error doloribus placeat voluptas mollitia perspiciatis, ducimus
+              velit ex hic?
+            </p>
+            <a href="#">learn more</a>
+          </div>
+          <div>
+            <img src= "./sevices/app-development.png" width="100px" height="100px" style="margin-top: 10px;"/>
+            <h1>web design</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+              ea error doloribus placeat voluptas mollitia perspiciatis, ducimus
+              velit ex hic?
+            </p>
+            <a href="#">learn more</a>
+          </div>
+          <div>
+            <img src="./sevices/app-development (1).png" width="100px" height="100px" style="margin-top: 10px;"/>
+            <h1>app design</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+              ea error doloribus placeat voluptas mollitia perspiciatis, ducimus
+              velit ex hic?
+            </p>
+            <a href="#">learn more</a>
+          </div>
+        </div>
+        <div class="services-list">
+          <div>
+            <!-- icons from fontawesome icons -->
+            <img src="./sevices/icons8-python.svg" width="100px" height="100px" style="margin-top: 10px;" />
+            <h1>basic python programming</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+              ea error doloribus placeat voluptas mollitia perspiciatis, ducimus
+              velit ex hic?
+            </p>
+            <a href="#">learn more</a>
+          </div>
+          <div>
+            <img src="./sevices/icons8-react.svg" width="100px" height="100px" style="margin-top: 10px;" />
+            <h1>react js</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+              ea error doloribus placeat voluptas mollitia perspiciatis, ducimus
+              velit ex hic?
+            </p>
+            <a href="#">learn more</a>
+          </div>
+          <div>
+            <img src="./sevices/programing.png" width="80px" height="80px" style="margin-top: 10px;"/>
+            <h1>node js</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+              ea error doloribus placeat voluptas mollitia perspiciatis, ducimus
+              velit ex hic?
+            </p>
+            <a href="#">learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ------------------------------------work------------------------ -->
+
+    <div id="work">
+      <div class="container">
+        <h1 class="sub-title">my work</h1>
+        <div class="services-list">
+          <div>
+            <!-- icons from fontawesome icons -->
+            <!-- <img src="./work/apps.png" width="100px" height="100px" style="margin-top: 10px;" /> -->
+            <h1>TO DO APP</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+              ea error doloribus placeat voluptas mollitia perspiciatis, ducimus
+              velit ex hic?
+            </p>
+          </div>
+          <div>
+            <!-- <img src="./work/download.jfif" width="100px" height="100px" style="margin-top: 10px;" /> -->
+            <h1>QUIZ APP</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+              ea error doloribus placeat voluptas mollitia perspiciatis, ducimus
+              velit ex hic?
+            </p>
+          </div>
+          <div>
+            <!-- <img src="./work/download (1).png" width="100px" height="100px" style="margin-top: 10px;" /> -->
+            <h1>RANDOM PASSWORD GENERATOR</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+              ea error doloribus placeat voluptas mollitia perspiciatis, ducimus
+              velit ex hic?
+            </p>
+          </div>
+        </div>
+        <div class="services-list">
+          <div class="random_car">
+            <!-- icons from fontawesome icons -->
+            <!-- <img src="./images/car-american-2.jpeg" w/> -->
+            <h1>RANDOM CAR CENTER WEB DESIGN</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+              ea error doloribus placeat voluptas mollitia perspiciatis, ducimus
+              velit ex hic?
+            </p>
+          </div>
+          <div>
+            <!-- <img src="./social icons/icons8-instagram-94.png" alt="" /> -->
+            <h1>BITCODER LAB CLONE</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+              ea error doloribus placeat voluptas mollitia perspiciatis, ducimus
+              velit ex hic?
+            </p>
+          </div>
+          <div class="loginpage">
+            <!-- <img src="./work/login.png" width="100px" height="100px" style="margin-top: 10px;" /> -->
+            <h1>LOGIN FORM DESIGN</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+              ea error doloribus placeat voluptas mollitia perspiciatis, ducimus
+              velit ex hic?
+            </p>
+          </div>
+        </div>
+        <a href="#" class="btn">see more</a>
+      </div>
+    </div>
+
+    <!-- -------------contact--------------------- -->
+
+    <div id="contact">
+      <div class="container">
+        <h1 class="sub-title">contact us</h1>
+        <div class="list">
+          <div class="personal">
+            <div class="personal1">
+              ejaz112me@gmail.com <br /><br />
+              0317-6266468
+              <br /><br /><br />
+            </div>
+            <a href="https://github.com/muhammadejaz32"
+              ><img
+                src="./social icons/github.svg"
+                alt=""
+                width="80px"
+                height="50px"
+            /></a>
+            <a href=""
+              ><img
+                src="./social icons/whatsapp.svg"
+                alt=""
+                width="80px"
+                height="50px"
+            /></a>
+            <a href=""
+              ><img
+                src="./social icons/icons8-facebook-94.png "
+                alt=""
+                width="60px"
+                height="50px"
+            /></a>
+            <a href="www.linkedin.com/in/mejaz12"
+              ><img
+                src="./social icons/linkedin.svg"
+                alt=""
+                width="80px"
+                height="50px"
+            /></a>
+          </div>
+          <div class="form">
+            <input type="text" placeholder="username" /> <br />
+            <input type="email" placeholder="email" /><br />
+            <textarea
+              name=""
+              id=""
+              placeholder="message"
+              class="textarea"
+            ></textarea
+            ><br />
+            <button type="submit" class="btn">submit</button>
+          </div>
+        </div>
+      </div>
+      <p class="copyright">copyright &copy reserved</p>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
